@@ -18,29 +18,51 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.navigateToUrl('https://citihc5.citi-us.com/DRISDEV/Account/Login')
+
+WebUI.maximizeWindow()
+
+WebUI.delay(2)
+
 WebUI.setText(findTestObject('Object Repository/Patient Accounting/Patient Search/Page_Log in/input_User Name_UserName'), 
     'rkadam')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Patient Accounting/Patient Search/Page_Log in/input_Password_Password'), 
+WebUI.delay(2)
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Patient Accounting/duplicate/Page_Log in/input_Password_Password'), 
     '2sK9z7vq6vmegYeH3oBnSE20ZEcIdZAS')
+
+WebUI.delay(2)
 
 WebUI.sendKeys(findTestObject('Object Repository/Patient Accounting/Patient Search/Page_Log in/input_Password_Password'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.navigateToUrl('https://citihc5.citi-us.com/DRISDEV/Search/Patient')
+WebUI.delay(2)
 
 WebUI.setText(findTestObject('Object Repository/Patient Accounting/Patient Search/Page_Search/input_Last Name_LastName'), 
     'g')
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/Patient Accounting/Patient Search/Page_Search/button_Search'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Patient Accounting/Patient Search/Page_Search/a_Garrett James M'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/Patient Accounting/Patient Search/Page_Search/button_Yes'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Patient Accounting/Patient Search/Page_Clinical Information/span_Problem List'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/Patient Accounting/Patient Search/Page_Clinical Information/button_Log Off'))
+
+WebUI.delay(2)
 
 WebUI.closeBrowser()
 
