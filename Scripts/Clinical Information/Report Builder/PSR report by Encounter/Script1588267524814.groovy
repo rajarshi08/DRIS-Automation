@@ -23,10 +23,10 @@ import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
 import org.openqa.selenium.Dimension as Dimension
 
-WebUI.openBrowser('')
+WebUI.openBrowser('https://citihc5.citi-us.com/DRISDEV/Account/Login')
 
 'Application Launch'
-WebUI.navigateToUrl('https://citihc5.citi-us.com/DRISDEV/Account/Login')
+not_run: WebUI.navigateToUrl('https://citihc5.citi-us.com/DRISDEV/Account/Login')
 
 WebUI.maximizeWindow()
 
@@ -35,20 +35,23 @@ assert WebUI.getWindowTitle() == 'Log in'
 
 assert WebUI.verifyElementPresent(findTestObject('Clinical Information/Report Builder/Page_Log in/Log_in_Banner'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
+CustomKeywords.'loginAndLogout.LogIn.Login'()
+
+not_run: CustomKeywords.'loginAndLogout.LogIn.Login'()
+
+//WebUI.setText(findTestObject('Object Repository/Clinical Information/Report Builder/Page_Log in/input_User Name_UserName'), 
+//    'rkadam')
+//
+//WebUI.delay(1)
+//
+//'Enter Password'
+//WebUI.setEncryptedText(findTestObject('Object Repository/Clinical Information/Report Builder/Page_Log in/input_Password_Password'), 
+//    'lQ7Lhlvb+R47HPw+AJwSpQ==')
+//
+//WebUI.delay(1)
+//
+//WebUI.click(findTestObject('Object Repository/Clinical Information/Report Builder/Page_Log in/input_Password_btn btn-primary btn-md'))
 'Enter User Name'
-WebUI.setText(findTestObject('Object Repository/Clinical Information/Report Builder/Page_Log in/input_User Name_UserName'), 
-    'rkadam')
-
-WebUI.delay(1)
-
-'Enter Password'
-WebUI.setEncryptedText(findTestObject('Object Repository/Clinical Information/Report Builder/Page_Log in/input_Password_Password'), 
-    'lQ7Lhlvb+R47HPw+AJwSpQ==')
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Object Repository/Clinical Information/Report Builder/Page_Log in/input_Password_btn btn-primary btn-md'))
-
 WebUI.delay(10)
 
 WebDriver Driver = DriverFactory.getWebDriver()
@@ -265,7 +268,7 @@ WebUI.click(findTestObject('Object Repository/Clinical Information/Report Builde
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/Clinical Information/Report Builder/Page_Clinical Information/li_Is equal to'))
+WebUI.click(findTestObject('Clinical Information/Report Builder/Page_Clinical Information/li_Is equal to'))
 
 WebUI.delay(1)
 
@@ -309,7 +312,7 @@ WebUI.verifyElementPresent(findTestObject('Clinical Information/Report Builder/P
 WebUI.verifyElementPresent(findTestObject('Clinical Information/Report Builder/Page_Clinical Information/div_Results - Count'), 
     3)
 
-WebUI.verifyElementPresent(findTestObject('Clinical Information/Report Builder/Page_Clinical Information/div_PatientHistry - Count'), 
+not_run: WebUI.verifyElementPresent(findTestObject('Clinical Information/Report Builder/Page_Clinical Information/div_PatientHistry - Count'), 
     3)
 
 WebUI.verifyElementPresent(findTestObject('Clinical Information/Report Builder/Page_Clinical Information/div_Document_Count'), 
@@ -438,4 +441,6 @@ WebUI.click(findTestObject('Object Repository/Clinical Information/Report Builde
 WebUI.click(findTestObject('Object Repository/Clinical Information/Report Builder/Page_Clinical Information/button_Print LMR'))
 
 WebUI.click(findTestObject('Object Repository/Clinical Information/Report Builder/Page_Clinical Information/button_Log Off'))
+
+WebUI.closeBrowser()
 
