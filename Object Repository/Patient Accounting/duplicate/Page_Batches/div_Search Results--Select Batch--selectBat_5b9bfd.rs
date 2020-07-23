@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Search Results--Select Batch--selectBat_5b9bfd</name>
+   <tag></tag>
+   <elementGuidId>f2a2ebc3-65c4-4219-9b91-256ddc1ab5df</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='StatementManagementGrid']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Search Results</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>k-widget k-grid border border-primary</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>StatementManagementGrid</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-role</name>
+      <type>Main</type>
+      <value>grid</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Search Results--Select Batch--selectBatch--Select Paycode--selectBatchPayCodesPostRefundExportGenerate Report--Select Agency--selectAgencyUpdate AgencySystemFacilityGroupAccount #Invoice #Bill DateCurrent PlanFinancial ClassCycle NameCycle StepAgencyBalanceCerner341A00000212502011/3/2019 (249 days)X01Adjustments1Agency 2$500.00Cerner223A00002912502511/5/2019 (247 days)W01Adjustments1Agency 1$1,001.00Cerner342A00003112503811/8/2019 (244 days)M01Adjustments1Agency 1$500.00Cerner341A00004912502611/12/2019 (240 days)X01Adjustments1Agency 1$500.00Allscripts_eCare341A00002112504711/13/2019 (239 days)ABC testTitle VAdjustments1Agency 1$500.00Allscripts_eCare223A00005812501811/27/2019 (225 days)W01Adjustments1Agency 1$1,000.00Paragon434A00002912503412/1/2019 (221 days)Adjustments1Agency 1$1,000.00Paragon342A00003912500312/2/2019 (220 days)M01Adjustments1Agency 1$19.00Paragon222A00003812502812/4/2019 (218 days)M01Adjustments1Agency 1$1,000.00Allscripts_eCare433A00003312503512/6/2019 (216 days)TestingCurrentPlanAdjustments1Agency 1$3.00Paragon342A00003012503312/25/2019 (197 days)TestAdjustments4Agency 1$1,362.00Allscripts_eCare222A00002012500512/30/2019 (192 days)RCarrAdjustments1 (Bad Debt)Agency 1$1,037.00Allscripts_eCare223A0000521250231/4/2020 (187 days)W01Adjustments1Agency 1$1,000.00Cerner223A0000361250081/6/2020 (185 days)W01Adjustments1Agency 1$1,000.00Cerner342A0000541250491/8/2020 (183 days)M01Adjustments1Agency 1$500.00seek-warrow-w1123arrow-eseek-e15select152550100items per page1 - 15 of 42 items</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;StatementManagementGrid&quot;)</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='StatementManagementGrid']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='SearchResults']/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clear'])[1]/following::div[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/following::div[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[3]/div/div</value>
+   </webElementXpaths>
+</WebElementEntity>

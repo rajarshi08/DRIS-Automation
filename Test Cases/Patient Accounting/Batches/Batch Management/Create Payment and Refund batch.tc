@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Payment and Refund batch</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d0c9e1d2-b987-4809-886d-c764d7413cf0</testCaseGuid>
+</TestCaseEntity>

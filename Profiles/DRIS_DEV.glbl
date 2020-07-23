@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>DRIS_DEV</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://citihc5.citi-us.com/DRISDEV/'</initValue>
+      <name>URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Enter last name</description>
+      <initValue>'g'</initValue>
+      <name>LastName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>For Refund Receipt</description>
+      <initValue>'125001'</initValue>
+      <name>InvoiceNumber</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'D:\\katalonScreenshots'</initValue>
+      <name>ScreenShotPath</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

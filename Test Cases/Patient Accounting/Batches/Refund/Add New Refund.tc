@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add New Refund</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7da1c120-c3df-4d25-ba02-1879edf96395</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>2edee816-6a11-4aab-a65a-1251e7e82715</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

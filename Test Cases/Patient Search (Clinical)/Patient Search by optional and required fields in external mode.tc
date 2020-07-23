@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Patient Search by optional and required fields in external mode</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e46b0208-194a-4f1d-809b-41bd957020e8</testCaseGuid>
+</TestCaseEntity>
