@@ -35,7 +35,7 @@ assert WebUI.getWindowTitle() == 'Log in'
 
 assert WebUI.verifyElementPresent(findTestObject('Clinical Information/Report Builder/Page_Log in/Log_in_Banner'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-CustomKeywords.'loginAndLogout.LogIn.Login'()
+CustomKeywords.'com.dris.loginAndLogout.LogIn.Login'()
 
 not_run: CustomKeywords.'loginAndLogout.LogIn.Login'()
 
@@ -399,16 +399,16 @@ WebUI.verifyElementChecked(findTestObject('Object Repository/Clinical Informatio
 WebUI.verifyElementChecked(findTestObject('Object Repository/Clinical Information/Report Builder/Page_Clinical Information/input_Unlinked in Date Range_ImmunizationUnlinked'), 
     2)
 
-WebUI.verifyElementChecked(findTestObject('Object Repository/Clinical Information/Report Builder/Page_Clinical Information/input_Unlinked in Date Range_OrderUnlinked'), 
+not_run: WebUI.verifyElementChecked(findTestObject('Object Repository/Clinical Information/Report Builder/Page_Clinical Information/input_Unlinked in Date Range_OrderUnlinked'), 
     2)
 
 WebUI.verifyElementChecked(findTestObject('Object Repository/Clinical Information/Report Builder/Page_Clinical Information/input_Unlinked in Date Range_ProcedureUnlinked'), 
     2)
 
-WebUI.verifyElementChecked(findTestObject('Object Repository/Clinical Information/Report Builder/Page_Clinical Information/input_Unlinked in Date Range_ResultUnlinked'), 
+not_run: WebUI.verifyElementChecked(findTestObject('Object Repository/Clinical Information/Report Builder/Page_Clinical Information/input_Unlinked in Date Range_ResultUnlinked'), 
     2)
 
-WebUI.verifyElementChecked(findTestObject('Object Repository/Clinical Information/Report Builder/Page_Clinical Information/input_Unlinked in Date Range_DocumentUnlinked'), 
+not_run: WebUI.verifyElementChecked(findTestObject('Object Repository/Clinical Information/Report Builder/Page_Clinical Information/input_Unlinked in Date Range_DocumentUnlinked'), 
     2)
 
 WebUI.verifyElementChecked(findTestObject('Object Repository/Clinical Information/Report Builder/Page_Clinical Information/input_Unlinked in Date Range_HealthUnlinked'), 
@@ -417,13 +417,13 @@ WebUI.verifyElementChecked(findTestObject('Object Repository/Clinical Informatio
 WebUI.verifyElementChecked(findTestObject('Object Repository/Clinical Information/Report Builder/Page_Clinical Information/input_Unlinked in Date Range_TransfusionUnlinked'), 
     2)
 
-WebUI.verifyElementChecked(findTestObject('Clinical Information/Report Builder/Page_Clinical Information/input_Orders_Checkbox'), 
+not_run: WebUI.verifyElementChecked(findTestObject('Clinical Information/Report Builder/Page_Clinical Information/input_Orders_Checkbox'), 
     2)
 
-WebUI.verifyElementChecked(findTestObject('Clinical Information/Report Builder/Page_Clinical Information/input_Results_Checkbox'), 
+not_run: WebUI.verifyElementChecked(findTestObject('Clinical Information/Report Builder/Page_Clinical Information/input_Results_Checkbox'), 
     2)
 
-WebUI.verifyElementChecked(findTestObject('Clinical Information/Report Builder/Page_Clinical Information/input_Document_Checkbox'), 
+not_run: WebUI.verifyElementChecked(findTestObject('Clinical Information/Report Builder/Page_Clinical Information/input_Document_Checkbox'), 
     2)
 
 WebUI.click(findTestObject('Clinical Information/Report Builder/Page_Clinical Information/input_Vitals_Checkbox'))
