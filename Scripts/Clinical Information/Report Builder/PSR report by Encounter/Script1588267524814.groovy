@@ -23,10 +23,10 @@ import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
 import org.openqa.selenium.Dimension as Dimension
 
-WebUI.openBrowser('https://citihc5.citi-us.com/DRISDEV/Account/Login')
+WebUI.openBrowser('')
 
 'Application Launch'
-not_run: WebUI.navigateToUrl('https://citihc5.citi-us.com/DRISDEV/Account/Login')
+WebUI.navigateToUrl('https://citihc5.citi-us.com/DRISDEV/Account/Login')
 
 WebUI.maximizeWindow()
 
